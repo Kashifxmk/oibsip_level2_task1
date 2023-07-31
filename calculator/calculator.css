@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  /* justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column; */
+  background-color: rgb(115, 225, 189);
+  /* border: 3px solid black;
+  border-radius: 5px;
+  border-spacing: -500px; */
+ background-image: url(pexels-todd-trapani-1420440.jpg);
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 0px solid black;
+  box-shadow: 4px 2px;
+  border-radius: 19px;
+  cursor: pointer;
+  background-color: #5cd195;
+  font-size: large;
+  font-weight:bold;
+}
+.button:hover{
+    background-color: rgb(193, 247, 224);
+}
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 0px solid black;
+    box-shadow: 6px 3px;
+    border-radius: 15px;
+}
+.border{
+    /* border-right: 20px solid black; */
+}
+.user{
+    align-items:end;
+    height: fit-content;
+    width: fit-content;
+    justify-items: center;
+    display: table-row;
+    direction: rtl;
+}
